@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 const Planet = new mongoose.Schema({
   edited: { type: Date, default: Date.now },
   climate: String,
